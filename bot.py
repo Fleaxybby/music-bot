@@ -3,11 +3,11 @@ from discord.ext import commands
 import asyncio
 import yt_dlp
 import random
-
+import os
 # ─────────────────────────────────────────────
 #  CONFIGURATION  ← Fill this in
 # ─────────────────────────────────────────────
-DISCORD_TOKEN = "MTQ5ODYzMjUyODE5MjQ3MTEwMg.GiG8dM.z_ROTGiKbImRc8aoSwImuKDqnftffRaqZ6_USQ"
+DISCORD_TOKEN = os.environ.get("MTQ5ODYzMjUyODE5MjQ3MTEwMg.GiG8dM.z_ROTGiKbImRc8aoSwImuKDqnftffRaqZ6_USQ")
 PREFIX = "!"
 # ─────────────────────────────────────────────
 
